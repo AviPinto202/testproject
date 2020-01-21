@@ -139,5 +139,26 @@ form {
 .gallery-item-img {
     max-width: 100%;
     height: auto;
+}
 
+.gallery-content {
+    background-color: rgba(62, 198, 255, 0.7);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gallery-content h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
